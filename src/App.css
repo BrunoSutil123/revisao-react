@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background: #070707;
+    height: 5rem;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 1px solid red;
+    height: calc(100vh - 5rem);   /*pra ocupar 100% DA TELA DO USUÁRIO: 100vh menos o 5 rem do header*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*URL da paleta pra prox aula: https://coolors.co/070707-553555-755b69-96c5b0-adf1d2*/
